@@ -28,7 +28,7 @@ interface CmdParam {
 	type: 'string' | 'number' | 'boolean' | 'options' | 'json';
 	location: ParamLocation;
 	required?: boolean;
-	default?: unknown;
+	default?: string | number | boolean;
 	options?: Array<{ name: string; value: string }>;
 	apiKey?: string; // override the body/query key sent to the API
 	omitValue?: string; // an option value that means "omit this field" (e.g. toggle)
