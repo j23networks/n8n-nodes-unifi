@@ -1,4 +1,4 @@
-# ui-n8n-node
+# n8n-nodes-unifi
 
 An [n8n](https://n8n.io) community node for Ubiquiti **UniFi** switches and networks.
 
